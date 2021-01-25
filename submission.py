@@ -2,11 +2,11 @@ import plotly.express as px
 import numpy as np
 
 
-# Do not modify the line below.
+
 countries = ["Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Ecuador", "Falkland Islands", "Guyana", "Paraguay",
              "Peru", "Suriname", "Uruguay", "Venezuela"]
 
-# Do not modify the line below.
+
 colors = ["blue", "green", "red", "yellow"]
 
 
@@ -44,7 +44,7 @@ def graph_coloring(country_index, graph, country_colors):
             return
 
 
-# Do not modify this method, only call it with an appropriate argument.
+
 # colormap should be a dictionary having countries as keys and colors as values.
 def plot_choropleth(colormap):
     fig = px.choropleth(locationmode="country names",
